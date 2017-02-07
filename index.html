@@ -1,0 +1,118 @@
+<!DOCtype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Anmol Mann</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--Main outside div-->
+  <div class="container" id="main_con">
+    <!--heading with logo and name-->
+    <div id="title">
+      <!--logo-->
+      <div id="logo">
+        <img class="img-responsive" src="images/apple.png" alt="PORTFOLIO">
+      </div>
+      <!--heading-->
+      <div id="head" class="text-right text-uppercase">
+        <header>
+          <h1 id="head_name">anmol mann</h1>
+          <h6 id="pos_name">
+            <span class="uni">✸</span> FRONT-END NINJA
+            <span class="uni">✸</span>
+          </h6>
+        </header>
+      </div>
+    </div>
+    <!--central image-->
+    <div id="mid">
+      <img class="img-responsive" src="images/main.jpg" alt="WEB DEVELOPER / PROGRAMMER">
+    </div>
+    <!--Featured Work (single row section)-->
+    <section class="container-fluid">
+      <h3><small><span class="size level" id="color">Featured Work</span></small></h3>
+    </section>
+    <!--projects-->
+    <div class="container-fluid">
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/s1.png" alt="MOVIE-TRAILER" data-toggle="modal" data-target="#movie">
+        <h3 class="size level text-uppercase">trailer</h3>
+        <a href="http://github.com/anmolmann/movie-trailer" class="link route" target="_blank">http://github.com/anmolmann/movie-trailer</a>
+      </div>
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/s2.png" alt="NEIGHBOURHOOD MAP" data-toggle="modal" data-target="#map">
+        <h3 class="size level text-uppercase">map</h3>
+        <a href="http://github.com/anmolmann/ajax-udacity" class="link route" target="_blank">http://github.com/anmolmann/ajax-udacity</a>
+      </div>
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/s3.png" alt="GRAPHS" data-toggle="modal" data-target="#graph">
+        <h3 class="size level text-uppercase">graphs</h3>
+        <a href="http://github.com/anmolmann/graphs" class="link route" target="_blank">http://github.com/anmolmann/graphs</a>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 1-->
+    <div class="modal fade" id="movie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">fresh tomatoes</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive view" src="images/s1.png" alt="Movie-trailer">
+                    <p>
+                      This was my first project in this class. I learned a lot about HTML, CSS and python. A website that displays movie-trailers. This is a server-side code to store a list of your own favorite movies, including box art imagery and a movie trailer URL. This code is then used to generate a static web page allowing visitors to browse their movies and watch the trailers.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">neighbourhood map</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive view" src="images/s2.png" alt="neighborhood map">
+                    <p>
+                      I learned about ajax, how to make asynchronous requests to the server. In this project, I made a neighbourhood map which uses 3 APIs to fetch all the related information about any city.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="modal fade" id="graph" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">graphs</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive view" src="images/s3.png" alt="directed and undirected graph programmes">
+                    <p>
+                      I learned about the implementation of undirected and directed graphs using java and implemented various programmes.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
