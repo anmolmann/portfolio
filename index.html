@@ -41,6 +41,9 @@
         Featured Work
       </h3>
     </section>
+
+    <br>
+
     <!--projects-->
     <div class="row">
       <div class="col-md-4 col-sm-4 view fence">
@@ -49,17 +52,38 @@
         <a href="http://github.com/anmolmann/movie-trailer" class="link route" target="_blank">http://github.com/anmolmann/movie-trailer</a>
       </div>
       <div class="col-md-4 col-sm-4 view fence">
-        <img class="img-responsive view" src="images/s2.png" alt="NEIGHBOURHOOD MAP" data-toggle="modal" data-target="#map">
+        <img class="img-responsive view" src="images/two.png" alt="NEIGHBOURHOOD MAP" data-toggle="modal" data-target="#map">
         <h3 class="size level text-uppercase">map</h3>
         <a href="http://github.com/anmolmann/ajax-udacity" class="link route" target="_blank">http://github.com/anmolmann/ajax-udacity</a>
       </div>
       <div class="col-md-4 col-sm-4 view fence">
-        <img class="img-responsive view" src="images/s3.png" alt="GRAPHS" data-toggle="modal" data-target="#graph">
-        <h3 class="size level text-uppercase">graphs</h3>
-        <a href="http://github.com/anmolmann/graphs" class="link route" target="_blank">http://github.com/anmolmann/graphs</a>
+        <img class="img-responsive view" src="images/s2.png" alt="Multi User Blog" data-toggle="modal" data-target="#graph">
+        <h3 class="size level text-uppercase">Multi User Blog</h3>
+        <a href="https://github.com/anmolmann/multi-user-blog" class="link route" target="_blank">https://github.com/anmolmann/multi-user-blog</a>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/four.png" alt="NEIGHBOURHOOD MAP" data-toggle="modal" data-target="#four">
+        <h3 class="size level text-uppercase">NEIGHBORHOOD MAP</h3>
+        <a href="https://github.com/anmolmann/Neighborhood-Map" class="link route" target="_blank">https://github.com/anmolmann/Neighborhood-Map</a>
+      </div>
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/five.png" alt="Linux Server Configuration" data-toggle="modal" data-target="#five">
+        <h3 class="size level text-uppercase">Linux Server Configuration</h3>
+        <a href="https://github.com/anmolmann/Linux-Server-Configuration" class="link route" target="_blank">https://github.com/anmolmann/Linux-Server-Configuration</a>
+      </div>
+      <div class="col-md-4 col-sm-4 view fence">
+        <img class="img-responsive view" src="images/six.png" alt="Item Catalog" data-toggle="modal" data-target="#six">
+        <h3 class="size level text-uppercase">Item Catalog</h3>
+        <a href="https://github.com/anmolmann/Item-Catalog" class="link route" target="_blank">https://github.com/anmolmann/Item-Catalog</a>
       </div>
     </div>
   </div>
+  <br>
+
   <!-- Modal 1-->
     <div class="modal fade" id="movie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -84,7 +108,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h4 class="modal-title text-uppercase" id="myModalLabel">neighbourhood map</h4>
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">map</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive view" src="images/s2.png" alt="neighborhood map">
@@ -103,12 +127,18 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h4 class="modal-title text-uppercase" id="myModalLabel">graphs</h4>
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">Multi User Blog</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive view" src="images/s3.png" alt="directed and undirected graph programmes">
                     <p>
-                      I learned about the implementation of undirected and directed graphs using java and implemented various programmes.
+                      Development of a blog application using Google App Engine.
+                      Blog includes the following features:
+                      <ul>
+                        <li>Front page that lists blog posts.</li>
+                        <li>A form to submit new entries.</li>
+                        <li>Blog posts have their own page</li>
+                      </ul>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -116,6 +146,67 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!--Modals-->
+    <!-- Modal 1-->
+    <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">NEIGHBOURHOOD MAP</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive view" src="images/s1.png" alt="Movie-trailer">
+                    <p>
+                      A single-page application featuring a map of your neighborhood.
+                      Application utilizes Google's Map API and at least one additional third-party "data API". All data requests are retrieved in an asynchronous manner. In the event of a failed data retrieval errors are handled gracefully.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">LINUX SERVER CONFIGURATION</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive view" src="images/s2.png" alt="neighborhood map">
+                    <p>
+                      Prepare the server to host your web applications.
+                      Deploying your web applications to a publicly accessible server is the first step in getting users. Properly securing your application ensures your application remains stable and that your user’s data is safe.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title text-uppercase" id="myModalLabel">ITEM CATALOG</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive view" src="images/s3.png" alt="directed and undirected graph programmes">
+            <p>
+              An application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
